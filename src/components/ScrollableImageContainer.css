@@ -1,0 +1,83 @@
+.container {
+    width: 80%;
+    position: relative;
+    
+  }
+  
+  .image-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background: #f0f0f0; /* Optional background color */
+    padding: 10px; /* Optional padding */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-size: 100%;
+    background-image: url('https://i.pinimg.com/564x/f5/fc/05/f5fc05a1752b93d707ba2bf560e4e591.jpg');
+ 
+    
+  }
+  
+  .scroll-bar {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .scroll-thumb {
+    height: 100%;
+    background: #888;
+    width: 50px; /* Initial width, will be updated dynamically */
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4px; /* Optional rounded corners */
+  }
+
+  .scroll-thumb{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .scroll-thumb1{
+    font-size: 50px;
+    margin-left: 241px;
+    width: 690px;
+    background-color: rgba(92, 63, 73, 0.5);
+  }
+
+ .scrollable-image{
+    height: 110%;
+    width: 60%;
+ }
+
+  .arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 10%;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    margin: 50px;
+  }
+  
+  .arrow-button {
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #808080;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
