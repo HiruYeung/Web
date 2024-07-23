@@ -11,9 +11,9 @@ import RabbitTest from './rabbitTest';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <ContainerExample />
+     {/* <ContainerExample />
       <Motion />
-      <RabbitTest />
+      <RabbitTest /> */}
     <App />
   </React.StrictMode>
 );
